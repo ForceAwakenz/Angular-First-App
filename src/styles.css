@@ -1,5 +1,28 @@
 body {
-    background-color: #777;
-    color: crimson;
-    text-shadow: rgb(112, 30, 0) 1px 1px 1px;
+  background-color: #777;
+  color: crimson;
+  text-shadow: rgb(112, 30, 0) 1px 1px 1px;
+}
+
+ul,
+li {
+  text-shadow: none;
+  color: darkgreen;
+}
+
+ul {
+  width: 30%;
+  display: flex;
+}
+
+li {
+  border: solid 1px #333;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: rgb(181, 170, 155);
+}
+
+.big-text {
+  font-size: 1rem;
+  padding: 5px;
 }
